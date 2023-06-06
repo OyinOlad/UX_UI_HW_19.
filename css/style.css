@@ -56,8 +56,8 @@ section {
 	z-index: 100;
 }
 .logo {
-	font-size: 2.5rem;
-	color: #42278f;
+	font-size: 4.5rem;
+	color: white;
 	font-weight: 600;
 	cursor: default;
     text-decoration: none;
@@ -146,37 +146,39 @@ transition: .5s ease;
 	
 /* About me */
 .about {
-
+display:inline-flex;
 justify-content: center;
 align-items: center;
-gap: 0.5rem;
+padding-left: 1rem;
+
+
 
 }
-.about.img img{
-	width: 35vw;
+
+
+.about-img img{
+	width: 200px;
 	display: flex;
+	
 }
 
-.heading {
+.heading{
+	padding: 20px;
+	margin: 20px;
+
+}
+.heading h2 {
 	text-align:center;
-	font-size:  3.6em;
+	font-size:  2.6em;
     font-weight: 600;
 }
 
-.about-content h2{
-	text-align: left;
-	line-height: 1.2;
 
-	
-}
-.about-content h3{
-	font-size: 2.6rem;
-	text-align: center;
-    
-}
-.about-content p{
-	font-size: 1.6rem;
+.heading p{
+	font-size: 1.5rem;
 	margin: 2rem 0 3rem;
+	text-align: center;
+	justify-content: center;
 }
 
 /* My Ux skilss */
